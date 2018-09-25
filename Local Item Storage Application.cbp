@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Local Item Storage Application" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Local Item Storage Application" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Local Item Storage Application" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/IEBalancer.h" />
+		<Unit filename="include/IEBank.h" />
+		<Unit filename="include/IECategory.h" />
+		<Unit filename="include/IEConsoleController.h" />
+		<Unit filename="include/IEDefaultItem.h" />
+		<Unit filename="include/IEItem.h" />
+		<Unit filename="include/IEMainCategory.h" />
+		<Unit filename="include/IEMenu.h" />
+		<Unit filename="include/IERamChip.h" />
+		<Unit filename="include/IESubCategory.h" />
+		<Unit filename="include/IETimeController.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/IEBalancer.cpp" />
+		<Unit filename="src/IEBank.cpp" />
+		<Unit filename="src/IECategory.cpp" />
+		<Unit filename="src/IEConsoleController.cpp" />
+		<Unit filename="src/IEDefaultItem.cpp" />
+		<Unit filename="src/IEItem.cpp" />
+		<Unit filename="src/IEMainCategory.cpp" />
+		<Unit filename="src/IEMenu.cpp" />
+		<Unit filename="src/IERamChip.cpp" />
+		<Unit filename="src/IESubCategory.cpp" />
+		<Unit filename="src/IETimeController.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,99 @@
+# depslib dependency file v1.0
+1464027108 source:d:\se116 project\local item storage application\main.cpp
+	<iostream>
+	"IEMenu.h"
+
+1464027175 source:d:\se116 project\local item storage application\src\iemaincategory.cpp
+	"IEMainCategory.h"
+	"IEMenu.h"
+
+1464027218 d:\se116 project\local item storage application\include\iemaincategory.h
+	"IESubCategory.h"
+	<list>
+	<iostream>
+
+1463503707 source:d:\se116 project\local item storage application\src\iemainitem.cpp
+	"IEMainItem.h"
+
+1463504051 d:\se116 project\local item storage application\include\iemainitem.h
+	<iostream>
+
+1464044822 source:d:\se116 project\local item storage application\src\iesubcategory.cpp
+	"IESubCategory.h"
+	"IEMenu.h"
+
+1464027230 d:\se116 project\local item storage application\include\iesubcategory.h
+	"IECategory.h"
+	"IEItem.h"
+	<list>
+
+1464052403 source:d:\se116 project\local item storage application\src\iemenu.cpp
+	"IEMenu.h"
+
+1464046974 d:\se116 project\local item storage application\include\iemenu.h
+	"IEConsoleController.h"
+	"IETimeController.h"
+	"IEBank.h"
+	"IEBalancer.h"
+	<iostream>
+	<stdio.h>
+	<time.h>
+
+1464027134 source:d:\se116 project\local item storage application\src\ieconsolecontroller.cpp
+	"IEConsoleController.h"
+	<cstdlib>
+
+1464027209 d:\se116 project\local item storage application\include\ieconsolecontroller.h
+	<iostream>
+
+1464027128 source:d:\se116 project\local item storage application\src\iebank.cpp
+	"IEBank.h"
+	"IEMenu.h"
+	"IERamChip.h"
+
+1464027202 d:\se116 project\local item storage application\include\iebank.h
+	"IEMainCategory.h"
+	"IESubCategory.h"
+	"IEItem.h"
+	"IEDefaultItem.h"
+	<list>
+	<iostream>
+	<stdio.h>
+	"IERamChip.h"
+
+1464027233 d:\se116 project\local item storage application\include\ietimecontroller.h
+	<time.h>
+
+1464027191 source:d:\se116 project\local item storage application\src\ietimecontroller.cpp
+	"IETimeController.h"
+
+1464027205 d:\se116 project\local item storage application\include\iecategory.h
+	<iostream>
+
+1464027132 source:d:\se116 project\local item storage application\src\iecategory.cpp
+	"IECategory.h"
+
+1464027150 source:d:\se116 project\local item storage application\src\ieitem.cpp
+	"IEItem.h"
+
+1464027214 d:\se116 project\local item storage application\include\ieitem.h
+	<iostream>
+
+1464027211 d:\se116 project\local item storage application\include\iedefaultitem.h
+	<IEItem.h>
+
+1464027143 source:d:\se116 project\local item storage application\src\iedefaultitem.cpp
+	"IEDefaultItem.h"
+
+1464027199 d:\se116 project\local item storage application\include\iebalancer.h
+
+1464027115 source:d:\se116 project\local item storage application\src\iebalancer.cpp
+	"IEBalancer.h"
+	"IEMenu.h"
+
+1464027227 d:\se116 project\local item storage application\include\ieramchip.h
+	<IEItem.h>
+
+1464027183 source:d:\se116 project\local item storage application\src\ieramchip.cpp
+	"IERamChip.h"
+
