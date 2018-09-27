@@ -1,0 +1,63 @@
+->IEBalancer
+
+Prints the following data of the registered items: Total buy prices, total sell prices,
+net income, average net income per item, total items on the market.
+
+-> IEBank
+
+This class holds the necessary methods used for the following cases:
+-Adding new main category
+-Removing existing main category
+-Editing existing main category
+-Showing the main category list
+-Adding new sub category
+-Removing existing sub category
+-Editing existing sub category
+-Showing the sub category list
+-Adding new item
+-Removing existing item
+-Showing the item list
+
+Also holds the lists of class objects.
+
+-> IECategory
+
+Superclass for categories.
+
+-> IEConsoleController
+
+Class that cleans or iterates the command console.
+
+-> IEDefaultItem
+
+Derived class of the class IEItem, this class is a type of an item.
+
+-> IEItem
+
+Superclass, holds the general variables and methods for items.
+
+->IEMainCategory
+
+Derived class of the IECategory class, can print associated sub categories, can add a new sub
+category to itself or remove one.
+
+-> IEMenu
+
+Class for the menu logic.
+
+-> IERamChip
+
+An example class for polymorphism, derived class of IEItem class.
+
+-> IESubCategory
+
+Derived class of the IECategory class.
+
+-> IETimeController
+
+Holds a method for delaying operations on the command console
+
+Inan Evin
+20140601024
+www.inanevin.com
+inanevin@gmail.com
